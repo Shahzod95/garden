@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@300;400;500&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    .active{
+        @apply text-orange-color;
+    }
+    .currenPage{
+        @apply text-orange-color font-geologica;
+    }
+    .mySwiper3 .swiper-slide{
+        @apply opacity-[0.4]
+    }
+    .mySwiper3 .swiper-slide-thumb-active{
+        @apply opacity-100;
+    }
+}

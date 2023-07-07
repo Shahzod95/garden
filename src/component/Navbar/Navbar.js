@@ -66,9 +66,9 @@ const Navbar = () => {
         </div>
       </div>
       <div className="max-w-[10%]">
-        <button className="absolute xl:py-[15px] py-[20px] xl:px-[61px] px-[71px] right-0 top-[34px] bg-orange-color text-white">
+        <Link to="/rooms/room" className="absolute xl:py-[15px] py-[20px] xl:px-[61px] px-[71px] right-0 top-[34px] bg-orange-color text-white">
           BOOKING
-        </button>
+        </Link>
       </div>
     </div>
   );
